@@ -176,3 +176,14 @@ footer {
   padding: 100px 0;
 }
 
+  @media screen and (max-width: 1000px) {
+    header {
+      padding: 40px 120px;
+      background-color: bisque;
+    }
+    @media screen and(max-width:800px) {
+      .menu {
+        display: none;
+      }
+    }
+  }
